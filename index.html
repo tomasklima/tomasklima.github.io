@@ -1,0 +1,91 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<style type="text/css">
+html,
+body {
+  height: 100%;
+  margin: 0
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row {
+  flex: 0 1 30px;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+  background-color: red;
+  position: relative;
+}
+
+.box .row.footer {
+  flex: 0 1 40px;
+}
+</style>
+</head>
+<body>
+	<div class="box">
+	<iframe id="header" class="row header" frameborder="0" style="height:126px;width:100%" src="javascript:'<html><body>Loading...</body></html>'"></iframe>
+	<div class="row content" id="scrl">
+  <iframe id="data" frameborder="0" scrolling="no" style="width:100%;position:absolute;height:100%" src="javascript:'<html><body>Loading...</body></html>'"></iframe>
+  </div>
+  <!--div class="row footer">
+    <p><b>footer</b> (fixed height)</p>
+  </div-->
+</div>
+<!--
+	<div style="display: flex;flex-flow: column;height: 100%;">
+	<iframe id="header" frameborder="0" style="width:100%;flex:0 1 126px" src="javascript:'<html><body>Loading...</body></html>'"></iframe>
+	<iframe id="data" frameborder="0" style="width:100%;border:1px solid red;flex:0 1 auto" src="javascript:'<html><body>Loading...</body></html>'"></iframe>
+	</div>
+	-->
+
+	<script type="text/javascript">
+	  var urlP1 = "https://docs.google.com/spreadsheets/d/"; // followed by ssid
+	  var urlP2 = "/pubhtml?gid="; // followed by gid
+	  var urlP3 = "&single=true&chrome=false&range="; // followed by range A1%3AJ13
+
+	  var ssid, gid, delay;
+	  var lineHeight = 22;
+	  var firstLine = 6;
+
+		$(function() {
+			ssid = $.urlParam("ssid");
+			gid = $.urlParam("gid");
+			delay = $.urlParam("delay");
+
+			$("#header").attr("src", urlP1 + ssid + urlP2 + gid + urlP3 + "A1%3AJ5");
+			$("#data").attr("src", urlP1 + ssid + urlP2 + gid + urlP3 + "A6%3AJ150");
+			setTimeout(scroll, 3000);
+			//alert(Math.trunc($("#data").css("height").slice(0, -2)/lineHeight) + 6);
+
+			//alert($("#data").css("height"));
+		});
+
+		$.urlParam = function(name){
+	    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+	    if (results == null) {
+		    return null;
+      } else {
+        return results[1] || 0;
+      }
+    }
+
+    function scroll() {
+    	alert("scrolling");
+			$("#scrl").scrollTop("30");
+			//setTimeout(scroll, 5000);
+    }
+	</script>
+</body>
+</html>

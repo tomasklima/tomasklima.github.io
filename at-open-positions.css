@@ -1,0 +1,232 @@
+
+
+/* devanagari */
+@font-face {
+  font-family: 'Cambay';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cambay'), local('Cambay-Regular'), url(//fonts.gstatic.com/s/cambay/v1/4G9C7bzYG0XYiRyKsUPksH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cambay';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cambay'), local('Cambay-Regular'), url(//fonts.gstatic.com/s/cambay/v1/KjIRHqleO-VpPpQX3EARvH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cambay';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cambay'), local('Cambay-Regular'), url(//fonts.gstatic.com/s/cambay/v1/JB24oQZgZ6NJJbhWCttc3evvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Cambay';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cambay Italic'), local('Cambay-Italic'), url(//fonts.gstatic.com/s/cambay/v1/1y0NMo0XLsnjV5VL0nZC_xkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cambay';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cambay Italic'), local('Cambay-Italic'), url(//fonts.gstatic.com/s/cambay/v1/c5kKsNejrzPLatq3IZx9ghkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cambay';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cambay Italic'), local('Cambay-Italic'), url(//fonts.gstatic.com/s/cambay/v1/NAQkuCU8JhzE5IvXqwp8gXYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Cambay';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cambay Bold'), local('Cambay-Bold'), url(//fonts.gstatic.com/s/cambay/v1/epe4XNOICtUSnJPo-nAJNYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cambay';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cambay Bold'), local('Cambay-Bold'), url(//fonts.gstatic.com/s/cambay/v1/w6Ot8WDiDorG2p0IFjdYFoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cambay';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cambay Bold'), local('Cambay-Bold'), url(//fonts.gstatic.com/s/cambay/v1/9M3kjQTQkUz1UH-8XJ4q-JBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Cambay';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cambay Bold Italic'), local('Cambay-BoldItalic'), url(//fonts.gstatic.com/s/cambay/v1/QXC__RY14mB1q5vhyakjrPkqa6bqz2MWWNAbes-nCbE.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cambay';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cambay Bold Italic'), local('Cambay-BoldItalic'), url(//fonts.gstatic.com/s/cambay/v1/QXC__RY14mB1q5vhyakjrKE8kM4xWR1_1bYURRojRGc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cambay';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cambay Bold Italic'), local('Cambay-BoldItalic'), url(//fonts.gstatic.com/s/cambay/v1/QXC__RY14mB1q5vhyakjrIgp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body, td, div, span, p, button, input, .google-visualization-table-table {
+  font-family: 'Cambay', sans-serif!important;
+  color: #444444;
+}
+a {
+  color: #3c7599;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+input[type="text"] {
+  height: 29px;
+  font-size: 1em;
+  color: #444444;
+  border: 1px solid #d9d9d9;
+  border-top-color: silver;
+  border-radius: 2px;
+  padding: 0.2em 0.5em 0 0.5em;
+}
+input[type="text"]:focus {
+  outline-width: 0;
+  border-color: #52a1d2;
+}
+button {
+  height: 29px;
+  font-weight: bold;
+  padding: 0.6em 2em;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.1);
+  background-color: #F5F5F5;
+  background: -moz-linear-gradient(top,#F5F5F5,#F1F1F1);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#F5F5F5),color-stop(100%,#F1F1F1));
+  background: -webkit-linear-gradient(top,#F5F5F5,#F1F1F1);
+  background: -o-linear-gradient(top,#F5F5F5,#F1F1F1);
+  background: -ms-linear-gradient(top,#F5F5F5,#F1F1F1);
+  background: linear-gradient(to bottom,#F5F5F5,#F1F1F1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5',endColorstr='#F1F1F1',GradientType=0);
+  color: #444444;
+  outline: 0;
+  text-transform: uppercase;
+}
+button:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-color: #F8F8F8;
+  background: -moz-linear-gradient(top,#F8F8F8,#F1F1F1);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#F8F8F8),color-stop(100%,#F1F1F1));
+  background: -webkit-linear-gradient(top,#F8F8F8,#F1F1F1);
+  background: -o-linear-gradient(top,#F8F8F8,#F1F1F1);
+  background: -ms-linear-gradient(top,#F8F8F8,#F1F1F1);
+  background: linear-gradient(to bottom,#F8F8F8,#F1F1F1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F8F8F8',endColorstr='#F1F1F1',GradientType=0);
+}
+.google-visualization-table {
+  border-right: 0!important;
+  border-bottom: 0!important;
+}
+.google-visualization-table-tr-head,
+.charts-menu-button-caption,
+.google-visualization-controls-label {
+  text-transform:uppercase;
+  font-size: 0.9em;
+  color: #444444!important;
+}
+.google-visualization-table-tr-head th {
+  background: none!important;
+  background-color: #F4F4F4!important;
+  padding: 1.2em 1em 0.7em 1em!important;
+}
+.google-visualization-table-td {
+    padding: 0.7em 0.7em 0.5em 0.7em!important;
+}
+.google-visualization-table-tr-sel td,
+.google-visualization-table-tr-over td {
+  background-color: #d8f0ff!important;
+}
+.google-visualization-controls-slider-horizontal {
+  outline-width: 1px;
+  outline-color: #52a1d2;
+}
+.google-visualization-table-div-page {
+  padding: 0.2em!important;
+}
+.google-visualization-controls-categoryfilter .charts-menuitem-highlight {
+  background-color:#d8f0ff!important;
+  border-color:#eeeeee!important;
+}
+.google-visualization-controls-categoryfilter .charts-menu-button-outer-box {
+  background-color: #f4f4f4;
+  border: 1px solid #eeeeee!important;
+}
+.google-visualization-controls-categoryfilter .charts-menu-button-hover .charts-menu-button-outer-box {
+    border: 1px solid #52a1d2!important;
+}
+.google-visualization-controls-categoryfilter .charts-menu-button-open {
+    background-color: transparent;
+}
+.google-visualization-controls-categoryfilter .charts-menu-button-inner-box {
+  padding: 0.33em 0.7em 0 0.7em!important;
+}
+.charts-menu {
+    border: 1px solid #eeeeee!important;
+}
+.charts-menuitem {
+  color: #444444;
+}
+.google-visualization-controls-categoryfilter LI {
+    background-color: #d8f0ff!important;
+}
+.count {
+  border: 1px solid #eee;
+  border-width: 1px 0;
+  background-color: #f4f4f4;
+  padding: 0 0.5em;
+}
+.numberOfResultsShown {
+  padding-left: 0.5em;
+}
+.loader {
+  background-color:#52a1d2;
+}
+.hidden {
+  display:none;
+}
+#parentChart1 {
+  width:44%!important;
+}
+#sidebar {
+  width:54%!important;
+  font-size:10pt;
+  margin-left:2%!important;
+}
